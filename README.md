@@ -1,6 +1,6 @@
 # protokol
 
-### A logging wrapper
+### A logging console wrapper
 
 You should write your own, but you can use mine if you want.
 
