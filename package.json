@@ -1,0 +1,16 @@
+{
+  "name": "protokol",
+  "version": "1.0.0",
+  "description": "Console-log wrapper with file logging capabilities",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maddiethegm/protokol.git"
+  },
+  "keywords": ["logging", "console", "file"],
+  "author": "Madeline Williams",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
