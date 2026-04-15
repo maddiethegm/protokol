@@ -1,6 +1,6 @@
 {
   "name": "protokol",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Console-log wrapper with file logging capabilities",
   "main": "./index.js",
   "repository": {
