@@ -18,7 +18,7 @@ A lightweight Node.js logging utility that writes to both `console.log` and a pe
 ## 📦 Installation
 
 ```bash
-npm install protokol
+npm install mde-protokol
 ```
 
 Add to your `package.json` scripts:
