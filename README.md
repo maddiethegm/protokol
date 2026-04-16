@@ -21,16 +21,6 @@ A lightweight Node.js logging utility that writes to both `console.log` and a pe
 npm install mde-protokol
 ```
 
-Add to your `package.json` scripts:
-
-```json
-{
-  "scripts": {
-    "start": "node index.js",
-    "test": "node tests/your-tests.js"
-  }
-}
-```
 
 ---
 
