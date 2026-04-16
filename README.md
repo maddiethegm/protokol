@@ -79,18 +79,6 @@ process.on('SIGINT', () => protokol.shutdown());
 
 ---
 
-## 📁 Project Structure
-
-```
-src/
-├── index.js           # Entry point for your app
-└── protokol.js        # Main logger implementation
-package.json           # Dependencies and scripts
-.env                   # Environment variables (optional)
-logs/                  # Auto-created log directory
-└── protokol.log       # Your application logs
-```
-
 ---
 
 ## ⚙️ Default Configuration
