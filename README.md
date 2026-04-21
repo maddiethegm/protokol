@@ -18,9 +18,19 @@ A lightweight Node.js logging utility that writes to both `console.log` and a pe
 ## 📦 Installation
 
 ```bash
-npm install mde-protokol
+npm install protokol
 ```
 
+Add to your `package.json` scripts:
+
+```json
+{
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tests/your-tests.js"
+  }
+}
+```
 
 ---
 
@@ -79,6 +89,18 @@ process.on('SIGINT', () => protokol.shutdown());
 
 ---
 
+## 📁 Project Structure
+
+```
+src/
+├── index.js           # Entry point for your app
+└── protokol.js        # Main logger implementation
+package.json           # Dependencies and scripts
+.env                   # Environment variables (optional)
+logs/                  # Auto-created log directory
+└── protokol.log       # Your application logs
+```
+
 ---
 
 ## ⚙️ Default Configuration
@@ -123,7 +145,7 @@ class App {
   }
 
   start() {
-    protokol(this, 'Starting...', new Date());
+    protokol(this, 'Starting...');
     
     // Simulate some work
     setTimeout(() => {

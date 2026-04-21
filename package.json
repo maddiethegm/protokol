@@ -1,6 +1,6 @@
 {
   "name": "mde-protokol",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Console-log wrapper with file logging capabilities",
   "main": "./src/index.js",
   "repository": {
