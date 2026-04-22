@@ -21,17 +21,6 @@ A lightweight Node.js logging utility that writes to both `console.log` and a pe
 npm install protokol
 ```
 
-Add to your `package.json` scripts:
-
-```json
-{
-  "scripts": {
-    "start": "node index.js",
-    "test": "node tests/your-tests.js"
-  }
-}
-```
-
 ---
 
 ## 📝 Usage
@@ -44,16 +33,21 @@ Replace `console.log()` with `protokol()`:
 const { protokol } = require('protokol');
 
 // Simple string logging
-protokol('Application started successfully')
 
-// Multiple arguments
-protokol(user, 'User logged in:', new Date())
+protokol(`${user} has logged in`)
+`markdown
 
-// Objects (auto-converted to JSON strings)
-protokol({ name: 'Alice', action: 'purchase' })
+Output like:
+[2026-04-21 20:03:28.998]    John logged in
+`
 
 // Arrays (comma-separated values)
 protokol([1, 2, 3])
+`markdown
+
+Output like:
+[2026-04-21 20:14:07.528] 1,2,3
+`
 ```
 
 ### Configuration
