@@ -35,19 +35,24 @@ const { protokol } = require('protokol');
 // Simple string logging
 
 protokol(`${user} has logged in`)
-`markdown
+```
+
+```markdown
 
 Output like:
 [2026-04-21 20:03:28.998]    John logged in
-`
+```
 
+```javascript
 // Arrays (comma-separated values)
+
 protokol([1, 2, 3])
-`markdown
+```
+
+```markdown
 
 Output like:
 [2026-04-21 20:14:07.528] 1,2,3
-`
 ```
 
 ### Configuration
